@@ -2,6 +2,6 @@
 
 This is a repository for the data and scripts behind the Mandai storm forest plots described in the following publications:
 
-> Lai, H. R., Tan, G. S. Y., Neo, L., Kee, C. Y., Yee, A. T. K., Tan, H. T. W., & Chong, K. Y. (2021). Decoupled responses of native and exotic tree diversities to distance from old-growth forest and soil phosphorus in novel secondary forests. *Applied Vegetation Science*, 24, e12548. doi: 10.1111/avsc.12548
+> Yee, A.T.K., Lai, H.R., Chong, K.Y., Neo, L., Koh, C.Y., Tan, S.Y., Seah, W.W., Loh, J.W., Lim, R.C.J., van Breugel, M., & Tan Tan, H. T. W. (2019). Short-term responses in a secondary tropical forest after a severe windstorm event. _Journal of Vegetation Science_ 30: 720--731.
 
 > 
