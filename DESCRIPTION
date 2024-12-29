@@ -1,0 +1,28 @@
+Package: Mandai
+Title: Mandai storm forest plot data (2011 - 2015)
+Version: 0.0.0.9000
+Authors@R:
+    c(person(given = "Kwek Yan",
+             family = "Chong", 
+             role = c("aut", "cre"), 
+             email = "kwek@nus.edu.sg", 
+             comment = c(ORCID = "0000-0003-4754-8957")),
+      person(given = "Hao Ran",
+             family = "Lai",
+             role = c("aut"),
+             email = "hrlai.ecology@gmail.com",
+             comment = c(ORCID = "0000-0001-6871-0146")),
+      person(given = "Alex Thiam Koon",
+             family = "Yee",
+             role = c("aut"),
+             email = "Alex_YEE@nparks.gov.sg",
+             comment = c(ORCID = "0000-0002-6465-0075")))
+Description:
+    A repository for the data behind the study of the Mandai storm forest plots from 2011 to 2015.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 3.5)
+LazyData: true
