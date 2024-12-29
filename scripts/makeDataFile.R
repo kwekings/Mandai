@@ -1,7 +1,7 @@
 library(readxl)
 library(tidyverse)
 
-sourceFilePath <- "data/Mandai_data_20231204.xlsx"
+sourceFilePath <- "data-raw/Mandai_data_20231204.xlsx"
 
 years <- c(2011, 2012, 2013, 2014, 2015)
 
@@ -50,7 +50,7 @@ plots_temp <- excel_sheets(sourceFilePath)[c(1:5)] %>%
         str_replace_all("NA-", "") %>%
         str_replace_all("-NA", "")
     })
-    
+
     x[-c(1:2),]
   })
 names(plots_temp) <- years
@@ -217,9 +217,9 @@ quadrants$`2015` <- plots_temp$`2015`[,c(1,8:23)] %>%
 # Take the chance to get rid of ? in undergrowth sheet
 
 # Make data file ----
-
-save(trees, plots, quadrants,
-     file = "data/Mandai_data.RData")
+Mandai_data <- list(trees, plots, quadrants)
+names(Mandai_data) <- c("trees", "plots", "quadrants")
+usethis::use_data(Mandai_data)
 
 # Mandai <- new.env()
 # load(file = "data/Mandai_data.RData", envir = Mandai)
