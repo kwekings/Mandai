@@ -32,7 +32,7 @@ Data from the first five years of the Mandai Storm Forest study (2011 - 2015)
 }
 \examples{
 
-lapply(Mandai_data, head)
+str(Mandai_data)
 }
 \references{
 Yee, A.T.K., H.R. Lai, K.Y. Chong, L. Neo, C.Y. Koh, S.Y. Tan, W.W. Seah, J.W. Loh, R.C.J. Lim, M. van Breugel, H.T.W. Tan. (2019) Short-term responses in a secondary tropical forest after a severe windstorm event. Journal of Vegetation Science 30: 720–731.

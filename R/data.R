@@ -27,5 +27,5 @@
 #'
 #' @examples
 #'
-#' lapply(Mandai_data, head)
+#' str(Mandai_data)
 "Mandai_data"
