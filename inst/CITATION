@@ -1,0 +1,10 @@
+bibentry(
+  bibtype  = "Article",
+  title    = "Short-term responses in a secondary tropical forest after a severe windstorm event",
+  author   = "Yee, A.T.K., H.R. Lai, K.Y. Chong, L. Neo, C.Y. Koh, S.Y. Tan, W.W. Seah, J.W. Loh, R.C.J. Lim, M. van Breugel, H.T.W. Tan",
+  journal  = "Journal of Vegetation Science",
+  year     = 2019,
+  volume   = 30,
+  pages    = 720-731,
+  doi      = "https://doi.org/10.1111/jvs.12753"
+)
