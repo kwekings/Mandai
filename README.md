@@ -18,3 +18,11 @@ Other publications arising from this dataset include:
 
 - Lai, H.R., K.Y. Chong, A.T.K. Yee, M.M. Mayfield, D.B. Stouffer (2022) The role of higher-order biotic interactions on tropical tree growth. Ecology 103: [e03588](https://esajournals.onlinelibrary.wiley.com/doi/abs/10.1002/ecy.3588).
     - Model and processed data can be found in another [GitHub repo](https://github.com/stoufferlab/hoi-trees-public)
+
+# To install
+
+```
+devtools::install_github("kwekings/Mandai")
+```
+
+The object `Mandai_data` containing the data can then be called (i.e., either after `library(Mandai)` or as `Mandai::Mandai_data`).
