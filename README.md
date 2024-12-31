@@ -6,6 +6,10 @@ This is a repository for the data and scripts behind the Mandai storm forest plo
 
 A blog [post](https://vegsciblog.org/2020/05/11/trudging-through-treefalls/) was contributed to the Vegetation Science Blog for this publication.
 
+And also:
+
+> Lai, H.R., K.Y. Chong, A.T.K. Yee. (2022) Ten years after: what we learned from the Mandai storm forest. Nature in Singapore Supplement 1: [e2022121](https://www.science.nus.edu.sg/wp-content/uploads/sites/11/2024/03/NIS_S1_207-218.pdf).
+
 Other publications arising from this dataset include:
 
 - Lai, H.R., K.Y. Chong, A.T.K. Yee, H.T.W. Tan, M. van Breugel. (2020) Functional traits that moderate tropical plant recruitment during post-windstorm secondary succession. Journal of Ecology 108: [1322–1333](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2745.13347). 
