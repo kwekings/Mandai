@@ -6,14 +6,16 @@
 #' @usage Mandai_data
 #' @format A list of three lists: 'trees', 'plots', and 'quadrants'. Each of
 #' these nested lists in turn consists of five data frames, named '2011' to
-#' '2015', representing the data from each year
+#' '2015', representing the data from each annual census. 'trees' contains
+#' the tree community survey, while 'plots' and 'quadrants' contain the plot-
+#' and quadrant-level environmental data.
 #' \describe{
 #' \item{plotID}{Unique identifier for each plot.}
 #' \item{treeID}{Unique identifier for each measured woody stem.}
 #' \item{species}{Scientific species name for the woody stem.}
-#' \item{DBH}{Diameter of woody stem at 130 cm height from the ground.}
+#' \item{DBH}{Diameter (cm) of woody stem at 130-cm height from the ground.}
 #' \item{date}{Date on which the plot was surveyed in that year.}
-#' \item{type_forest}{Forest type of the plot--either young secondary or old growth forest. See Yee et al. (2019) for more details.}
+#' \item{type_forest}{Forest type of the plot--either young secondary or old growth forest.}
 #' \item{type_damage}{Whether the plot was damaged by the storm event ('Affected') or not ('Unaffected').}
 #' \item{N}{Total Nitrogen in g per kg of topsoil (10 cm depth).}
 #' \item{P}{Total Phosphorous in mg per kg of topsoil (10 cm depth).}
@@ -21,6 +23,7 @@
 #' \item{quadrantID}{Unique identifier for each quadrant (NE, SE, SW, NW) of each plot.}
 #' \item{leafLitterDepth}{Depth of leaf litter measured in each quadrant of each plot in cm.}
 #' \item{canopyCover}{Canopy closedness (%) as measured with a spherical densiometer.}
+#' See Yee et al. (2019) for more information.
 #' }
 #' @references Yee, A.T.K., H.R. Lai, K.Y. Chong, L. Neo, C.Y. Koh, S.Y. Tan, W.W. Seah, J.W. Loh, R.C.J. Lim, M. van Breugel, H.T.W. Tan. (2019) Short-term responses in a secondary tropical forest after a severe windstorm event. Journal of Vegetation Science 30: 720–731.
 #'
